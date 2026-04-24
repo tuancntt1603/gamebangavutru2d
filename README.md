@@ -4,178 +4,224 @@
     </a>
 </h2>
 <h2 align="center">
-    QUẢN LÝ TÀI SẢN TÍCH HỢP QUẢN LÝ TÀI CHÍNH - KẾ TOÁN
+   CHAT ROOM DÙNG UDP MULTICAST
 </h2>
 <div align="center">
     <p align="center">
-        <img src="docs/logo/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="docs/logo/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
-        <img src="docs/logo/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+        <img alt="AIoTLab Logo" width="170" src="https://github.com/user-attachments/assets/711a2cd8-7eb4-4dae-9d90-12c0a0a208a2" />
+        <img alt="AIoTLab Logo" width="180" src="https://github.com/user-attachments/assets/dc2ef2b8-9a70-4cfa-9b4b-f6c2f25f1660" />
+        <img alt="DaiNam University Logo" width="200" src="https://github.com/user-attachments/assets/77fe0fd1-2e55-4032-be3c-b1a705a1b574" />
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
 [![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
+## 📖 1. Giới thiệu
+Ứng dụng Đổi lịch sử – Tái sử dụng giúp người dùng dễ dàng trao đổi, tặng hoặc mua bán đồ cũ ngay trên điện thoại. Ứng dụng lưu lại lịch sử giao dịch, quản lý đồ dùng đã trao đổi và hỗ trợ tìm kiếm nhanh các món đồ cần thiết.
+Mục tiêu của ứng dụng là tái sử dụng tài nguyên, giảm lãng phí và giúp cộng đồng sử dụng đồ cũ hiệu quả hơn. Giao diện đơn giản, dễ thao tác trên điện thoại như Redmi hay các máy Android khác, phù hợp với mọi người dùng.
+</div>
+# Ứng dụng Đổi đồ cũ – Tái sử dụng
 
+Ứng dụng web trao đổi đồ cũ, tái sử dụng và bảo vệ môi trường với đầy đủ tính năng hiện đại.
+
+## ✨ Tính năng đã hoàn thành
+
+### 🟢 1. Đăng & Quản lý món đồ cũ (Marketplace)
+- ✅ Đăng món đồ mới với tiêu đề, mô tả, tình trạng, danh mục, nhiều hình ảnh, vị trí
+- ✅ Sửa / Xóa món đồ đã đăng
+- ✅ Quản lý các món đồ đã đăng
+- ✅ Hỗ trợ nhiều hình ảnh (lưu dưới dạng JSON array)
+
+### 🟡 2. Tìm kiếm & Lọc thông minh
+- ✅ Tìm kiếm theo từ khóa (tiêu đề, mô tả)
+- ✅ Lọc theo danh mục (quần áo, nội thất, điện tử, sách…)
+- ✅ Lọc theo khu vực / thành phố
+- ✅ Lọc theo hình thức giao dịch (đổi/tặng/bán)
+- ✅ Sắp xếp theo: mới nhất, cũ nhất, lượt xem, giá
+
+### 🟣 3. Đổi – Tặng – Mua (3 hình thức giao dịch)
+- ✅ Đổi đồ 1-1: yêu cầu đổi đồ với người khác
+- ✅ Tặng đồ miễn phí: người dùng đăng đồ để tặng
+- ✅ Bán giá rẻ: giống chợ đồ cũ giá rẻ
+
+### 🔵 4. Chat trực tiếp giữa người dùng
+- ✅ Chat riêng khi muốn đổi đồ
+- ✅ Gửi hình ảnh món đồ trong chat
+- ✅ Trạng thái tin nhắn: đã gửi / đã xem
+- ✅ Danh sách cuộc trò chuyện
+
+### 🟢 5. Quét mã QR khi giao dịch
+- ✅ Mỗi món đồ có 1 QR code unique
+- ✅ Quét QR để xem thông tin đồ
+- ✅ QR code cho giao dịch để xác nhận
+- ✅ Lưu lịch sử giao dịch tự động
+
+### 🟤 6. Đánh giá – Bình luận người dùng
+- ✅ Sau mỗi giao dịch, người dùng đánh giá uy tín (1-5 sao)
+- ✅ Điểm uy tín được hiển thị trong hồ sơ
+- ✅ Xem đánh giá của người dùng khác
+- ✅ Hệ thống tính điểm uy tín tự động
+
+### 🟠 7. Quản lý tài khoản người dùng
+- ✅ Đăng nhập bằng Email / Mật khẩu
+- ✅ Hồ sơ cá nhân với thông tin đầy đủ
+- ✅ Lịch sử món đã đăng
+- ✅ Lịch sử giao dịch đã hoàn thành
+- ✅ Quản lý đồ yêu thích
+
+### 🟢 8. Yêu thích (Bookmark)
+- ✅ Lưu lại món đồ yêu thích
+- ✅ Xem danh sách đồ yêu thích
+- ✅ Nút yêu thích trên mỗi card đồ
+
+### 🔵 9. Thông báo (Notification)
+- ✅ Thông báo khi có người muốn đổi đồ
+- ✅ Thông báo chat mới
+- ✅ Thông báo giao dịch được xác nhận
+- ✅ Hiển thị số lượng thông báo chưa đọc
+
+
+### 🚀 Hình ảnh demo vài chức năng
+
+<div align="center">
+  <img width="800" height="550" alt="Giao diện ứng dụng Đổi đồ cũ" 
+       src="https://github.com/user-attachments/assets/8a159c1f-f056-45ea-b9d7-6871218b6baa" />
+  <p><b>Hình 1.</b> Giao diện ứng dụng Đổi đồ cũ.</p>
 </div>
 
-## 📖 1. Giới thiệu
+<div align="center">
+  <img width="800" height="550" alt="Chat bot AI" 
+       src="https://github.com/user-attachments/assets/eada7556-eba1-491b-9fc0-ae0e26acad32" />
+  <p><b>Hình 2.</b> Chat bot AI.</p>
+</div>
 
-### 1.1. Về đề tài
+<div align="center">
+  <img width="800" height="550" alt="AI tạo ảnh" 
+       src="https://github.com/user-attachments/assets/43ef663d-a5cf-4ed3-8789-486a86030b09" />
+  <p><b>Hình 3.</b> AI tạo ảnh.</p>
+</div>
 
-**Platform ERP** là một hệ thống quản lý doanh nghiệp được phát triển dựa trên nền tảng mã nguồn mở **Odoo 15.0**, được áp dụng vào học phần **Thực tập doanh nghiệp** tại Khoa Công nghệ Thông tin - Đại học Đại Nam.
-
-#### Mục tiêu:
-- Xây dựng một hệ thống ERP hoàn chỉnh để quản lý các hoạt động của doanh nghiệp
-- Tích hợp các module quản lý: Nhân sự, Tài sản, Văn bản, Kế toán
-- Ứng dụng công nghệ AI (Google Gemini) để hỗ trợ phân tích và tư vấn thông minh
-- Tạo môi trường thực hành cho sinh viên trong việc phát triển phần mềm doanh nghiệp
-
-### 1.2. Các chức năng chính
-
-#### 📦 Module Quản lý Tài sản & Khấu hao
-- **Quản lý Loại Tài sản**: Phân loại tài sản, cấu hình thời gian khấu hao, tài khoản kế toán
-- **Quản lý Tài sản**: Quản lý thông tin chi tiết tài sản, gán cho nhân viên, theo dõi trạng thái
-- **Tính Khấu hao Tự động**: Tính khấu hao theo phương pháp đường thẳng, tự động tạo bút toán kế toán
-- **Kiểm kê Tài sản**: Tạo phiếu kiểm kê, so sánh trạng thái thực tế với hệ thống
-- **Bảo trì & Sửa chữa**: Quản lý lịch sử bảo trì, sửa chữa, bảo dưỡng tài sản
-- **Thanh lý Tài sản**: Quản lý quy trình thanh lý, tính lãi/lỗ, tự động tạo bút toán
-- **Trợ lý ảo AI**: Tích hợp Google Gemini AI để:
-  - Dự báo bảo trì tài sản
-  - Tư vấn thanh lý tài sản
-  - Trả lời câu hỏi về tài sản, khấu hao, bảo trì
-
-#### 👥 Module Quản lý Nhân sự
-- Quản lý thông tin nhân viên, phòng ban, chức vụ
-- Chấm công, quản lý lương
-- Lịch sử công tác, chứng chỉ
-- Tích hợp với module Tài sản để theo dõi tài sản được gán cho nhân viên
-
-#### 📄 Module Quản lý Văn bản
-- Quản lý văn bản đến, văn bản đi
-- Workflow xử lý văn bản
-- Phân loại và tìm kiếm văn bản
-
-#### 💰 Tích hợp Kế toán
-- Tự động tạo bút toán kế toán cho khấu hao
-- Ghi nhận chi phí bảo trì/sửa chữa
-- Xử lý bút toán thanh lý tài sản
-- Liên kết với module Kế toán của Odoo
-
-## 💻 2. Ngôn ngữ lập trình và công nghệ sử dụng
-
-### 2.1. Ngôn ngữ lập trình
-- **Python 3.10**: Ngôn ngữ chính để phát triển các module
-- **XML**: Định nghĩa views, menus, security rules
-
-### 2.2. Framework và thư viện
-- **Odoo 15.0**: Framework ERP mã nguồn mở
-- **PostgreSQL**: Hệ quản trị cơ sở dữ liệu
-- **Google Generative AI (Gemini)**: API AI để phân tích và tư vấn
-- **Python Libraries**:
-  - `odoo`: Core framework
-  - `google-generativeai`: Tích hợp Google Gemini AI
-  - `psycopg2`: Kết nối PostgreSQL
-  - `dateutil`: Xử lý ngày tháng
-
-### 2.3. Công cụ và môi trường
-- **Docker**: Chạy PostgreSQL database
-- **Virtual Environment (venv)**: Quản lý môi trường Python
-- **Git**: Quản lý phiên bản mã nguồn
-- **WSL (Windows Subsystem for Linux)**: Môi trường phát triển trên Windows
-
-## 🖼️ 3. Hình ảnh giao diện
-### 3.1. Giao diện Quản lý Tài sản
-<p align="center">
-  <img src="docs/logo/tai san.jpg" alt="" width="700"/>
-</p>
-
-- **Danh sách tài sản**: Hiển thị danh sách tất cả tài sản với thông tin cơ bản
-- **Form chi tiết tài sản**: Quản lý thông tin đầy đủ về tài sản, khấu hao, bảo trì
-- **Tab Phân tích AI**: Tích hợp AI để dự báo bảo trì và tư vấn thanh lý
-
-### 3.2. Giao diện Khấu hao
-<p align="center">
-  <img src="docs/logo/z7474622662167_1783dbc7863f03556c51e63914842b73.jpg" alt="" width="700"/>
-</p>
-
-- **Lịch sử khấu hao**: Xem tất cả các bút toán khấu hao đã ghi sổ
-- **Wizard tính khấu hao**: Tính khấu hao cho tháng bất kỳ
-
-### 3.3. Giao diện Bảo trì & Sửa chữa
-<p align="center">
-  <img src="docs/logo/z7474625268914_17149b63910ca1ed59f20d1db936f51c.jpg" alt="" width="700"/>
-</p>
-
-- **Danh sách bảo trì**: Quản lý các phiếu bảo trì, sửa chữa
-- **Form chi tiết**: Ghi nhận thông tin bảo trì, chi phí, người thực hiện
-
-### 3.4. Giao diện Trợ lý ảo AI
-<p align="center">
-  <img src="docs/logo/ai.jpg" alt="" width="700"/>
-</p>
-- **Chatbot AI**: Tương tác với AI để hỏi về tài sản, khấu hao, bảo trì
-- **Cấu hình AI**: Cấu hình API Key cho Google Gemini
+<div align="center" style="margin: 20px 0;">
+  <img 
+       src="https://github.com/user-attachments/assets/8a3b62db-896b-4acf-8c12-1b018d2977ee" 
+       alt="Đăng đồ để đổi" 
+       style="max-width: 600px; height: auto; border: 1px solid #ccc; box-shadow: 2px 2px 12px rgba(0,0,0,0.2); border-radius: 8px;" />
+  <p><b>Hình 4.</b> Đăng đồ để đổi.</p>
+</div>
 
 
-## ⚙️ 4. Cài đặt
+## 🚀 Công nghệ sử dụng
 
-### 4.1. Cài đặt công cụ, môi trường và các thư viện cần thiết
+- **Next.js 14** - Framework React với App Router
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling hiện đại
+- **Prisma** - ORM cho database
+- **SQLite** - Database (có thể chuyển sang PostgreSQL/MySQL cho production)
+- **Lucide React** - Icon library
 
-#### 4.1.1. Clone project.
+## 📦 Cài đặt
+
+1. **Cài đặt dependencies:**
+```bash
+npm install
 ```
-git clone https://gitlab.com/anhlta/odoo-fitdnu.git
-cd odoo-fitdnu
+
+2. **Tạo database và generate Prisma client:**
+```bash
+npx prisma generate
+npx prisma db push
 ```
-#### 4.1.2. Cài đặt các thư viện cần thiết
-Người sử dụng thực thi các lệnh sau đề cài đặt các thư viện cần thiết
+
+3. **Chạy ứng dụng:**
+```bash
+npm run dev
+```
+
+4. **Mở trình duyệt tại [http://localhost:3000](http://localhost:3000)**
+
+## 📁 Cấu trúc dự án
 
 ```
-sudo apt-get install libxml2-dev libxslt-dev libldap2-dev libsasl2-dev libssl-dev python3.10-distutils python3.10-dev build-essential libssl-dev libffi-dev zlib1g-dev python3.10-venv libpq-dev
+app/
+  ├── api/              # API routes
+  │   ├── auth/         # Đăng nhập/đăng ký
+  │   ├── items/        # CRUD đồ
+  │   ├── favorites/    # Yêu thích
+  │   ├── reviews/      # Đánh giá
+  │   ├── messages/     # Chat
+  │   ├── transactions/ # Giao dịch
+  │   ├── notifications/# Thông báo
+  │   └── qr/           # QR code
+  ├── auth/             # Trang đăng nhập/đăng ký
+  ├── items/            # Trang danh sách, chi tiết, đăng, sửa đồ
+  ├── chat/             # Trang chat
+  ├── favorites/        # Trang yêu thích
+  ├── transactions/     # Trang giao dịch
+  ├── profile/          # Trang hồ sơ
+  └── qr/               # Trang xem QR code
+components/              # React components
+  ├── Header.tsx        # Header với navigation
+  ├── Footer.tsx        # Footer
+  ├── ItemCard.tsx     # Card hiển thị đồ
+  ├── QRCodeDisplay.tsx # Hiển thị QR code
+  └── NotificationBell.tsx # Thông báo
+lib/                    # Utilities
+  └── prisma.ts         # Prisma client
+prisma/                 # Database schema
+  └── schema.prisma     # Schema định nghĩa models
 ```
-#### 4.1.3. Khởi tạo môi trường ảo.
-- Khởi tạo môi trường ảo
-```
-python3.10 -m venv ./venv
-```
-- Thay đổi trình thông dịch sang môi trường ảo
-```
-source venv/bin/activate
-```
-- Chạy requirements.txt để cài đặt tiếp các thư viện được yêu cầu
-```
-pip3 install -r requirements.txt
-```
-### 4.2. Setup database
 
-Khởi tạo database trên docker bằng việc thực thi file dockercompose.yml.
-```
-sudo docker-compose up -d
-```
-### 4.3. Setup tham số chạy cho hệ thống
-Tạo tệp **odoo.conf** có nội dung như sau:
-```
-[options]
-addons_path = addons
-db_host = localhost
-db_password = odoo
-db_user = odoo
-db_port = 5431
-xmlrpc_port = 8069
-```
-Có thể kế thừa từ file **odoo.conf.template**
-### 4.4. Chạy hệ thống và cài đặt các ứng dụng cần thiết
-Lệnh chạy
-```
-python3 odoo-bin.py -c odoo.conf -u all
-```
-Người sử dụng truy cập theo đường dẫn _http://localhost:8069/_ để đăng nhập vào hệ thống.
+## 🗄️ Database Schema
 
-## 📝 5. License
+- **User**: Người dùng với thông tin đầy đủ, điểm uy tín
+- **Item**: Đồ với nhiều hình ảnh, QR code, vị trí
+- **Exchange**: Yêu cầu đổi đồ
+- **Transaction**: Giao dịch với QR code
+- **Favorite**: Đồ yêu thích
+- **Review**: Đánh giá người dùng
+- **Message**: Tin nhắn chat
+- **Notification**: Thông báo
 
-© 2024 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+## 🎯 Tính năng chuyển đổi số nổi bật
+
+- ✅ **Số hóa đồ cũ**: Đăng online thay vì chợ truyền thống
+- ✅ **Kết nối người dân**: Bằng chat và QR Code
+- ✅ **Lưu trữ dữ liệu**: Trên database với Prisma
+- ✅ **QR Code**: Mỗi đồ có QR code để quét và xác nhận
+
+## 📝 Lưu ý
+
+- Ứng dụng sử dụng localStorage để lưu thông tin đăng nhập (có thể nâng cấp lên session management sau)
+- Hình ảnh hiện tại sử dụng link URL (có thể tích hợp upload file với Firebase/Cloud Storage sau)
+- Database SQLite phù hợp cho development, nên chuyển sang PostgreSQL cho production
+- QR Code được tạo tự động khi đăng đồ mới
+- Thông báo tự động được tạo khi có giao dịch mới, chat mới
+
+## 🔮 Tính năng có thể mở rộng
+
+- [ ] Upload hình ảnh trực tiếp (Firebase Storage)
+- [ ] Đăng nhập bằng Google/Facebook
+- [ ] Bản đồ Google Maps để hiển thị vị trí
+- [ ] AI Recommender để gợi ý đồ phù hợp
+- [ ] Admin Dashboard để quản lý người dùng và bài đăng
+- [ ] Thanh toán online (nếu mở rộng)
+- [ ] WebSocket cho chat real-time
+- [ ] Push notifications
+
+## 👨‍💻 Phát triển
+
+Để phát triển thêm tính năng:
+
+1. Cập nhật Prisma schema nếu cần thêm model
+2. Chạy `npx prisma db push` để cập nhật database
+3. Tạo API routes trong `app/api/`
+4. Tạo UI components và pages
+
+## Thông tin cá nhân
+**Họ tên**: Bùi Anh Tuấn.  
+**Lớp**: CNTT 16-03.  
+**Email**: gaytongteo2004@gmail.com.
+
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
 
 ---
-
-
-    
